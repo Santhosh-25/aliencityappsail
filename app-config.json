@@ -1,0 +1,8 @@
+{
+  "command": "node index.js",
+  "build_path": "/Users/santhosh-19375/Desktop/Tutorials/aliencityappsail",
+  "stack": "node18",
+  "env_variables": {},
+  "memory": 256,
+  "scripts": {}
+}
