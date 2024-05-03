@@ -18,4 +18,4 @@ jobs:
       - name: Installing Packages for 'Node'
         run: cd functions/Node/ && npm install --omit=dev
       - name: Deploying code to catalyst
-        run: catalyst deploy --project ${{ TESTSECRET.Aliencity}} --org ${{ TESTSECRET.832316553}} --token ${{ TESTSECRET.m_1004.8514e429fe1f4242fbd2ce97b681c16a.4d38872ef0b87a1483b06351a525ccca}}
+        run: catalyst deploy --project ${{ secrets.CATALYST_PROJECT_NAME}} --org ${{ secrets.CATALYST_ORG}} --token ${{ secrets.CATALYST_TOKEN}}
